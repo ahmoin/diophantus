@@ -5,5 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diophantus</title>
   </head>
-  <body></body>
+  <body>
+    <div>
+      <h3 id="question">Your question will appear here</h3>
+      <input type="number" id="userAnswer" placeholder="Enter your answer" />
+      <button onclick="checkAnswer()">Submit</button>
+      <button
+        id="nextButton"
+        style="display: none"
+        onclick="generateQuestion()"
+      >
+        Next Question
+      </button>
+    </div>
+    <p id="feedback"></p>
+    <p id="score">Score: 0</p>
+    <script src="main.js"></script>
+  </body>
 </html>
