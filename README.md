@@ -1,1 +1,1 @@
-# diophantus.github.io
+# ahmoin.github.io/diophantus/
